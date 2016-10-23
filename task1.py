@@ -16,7 +16,7 @@ print("5. The length of a string is %s" % len(string))
 
 print("6. All symbols with even indexes are '%s'" % string[::2])
 
-print("7. All symbols with odd indexes are '%s'" % ("a"+string)[2:][::2])
+print("7. All symbols with odd indexes are '%s'" % (string)[1::2])
 
 print("8. Reverse string is '%s'" % string[::-1])
 
