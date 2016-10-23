@@ -10,13 +10,13 @@ print("2. Second symbol from end is '%s'" % string[-2])
 
 print("3. First five symbols are '%s'" % string[:5])
 
-print("4. All string except two last symblos is '%s'" % string[:-2])
+print("4. All string except two last symbols is '%s'" % string[:-2])
 
 print("5. The length of a string is %s" % len(string))
 
-print("6. All symbols with even indexes are '%s'" % string[::2])
+print("6. All symbols with even indices are '%s'" % string[::2])
 
-print("7. All symbols with odd indexes are '%s'" % (string)[1::2])
+print("7. All symbols with odd indices are '%s'" % string[1::2])
 
 print("8. Reverse string is '%s'" % string[::-1])
 
