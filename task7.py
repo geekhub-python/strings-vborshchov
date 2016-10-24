@@ -11,7 +11,4 @@ result = string.replace('h', 'H')
 result = result.replace('H', 'h', 1)
 result = result[:last_index] + 'h' + result[last_index+1:]
 
-# result = result[:first_index].replace('H', 'h') + result[first_index:]
-# result = result[:last_index].replace('H', 'h') + result[last_index:]
-
 print(result)
